@@ -26,9 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
-I am an **SUPERB**  group management bot.
-You can find the list of available commands with /help.
+**Hello {}, My Name is Uppi Boss Fan .
 
 """
 
@@ -146,7 +144,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    [InlineKeyboardButton(text="ADD Me",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="My Group",
-                                                                       url="t.me/Pruthvi_RJ_Group")
+                                                                       url="t.me/Upendrafansgroup")
                                                                                  ]]))
 
     else:
