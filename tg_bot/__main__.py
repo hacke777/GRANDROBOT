@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is Uppi Boss Fan .
+**Hello {}, My Name is Uppi Boss Fan , Group Manager Of @UpendraFansGroup
 
 """
 
@@ -47,7 +47,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/03d18c500f76932c1ecd2.png"
+TECHNO_IMG = "https://telegra.ph/file/ca01164e8dda6295ddbb2.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
