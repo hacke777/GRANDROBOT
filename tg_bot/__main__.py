@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is Uppi Boss Fan , Group Manager Of @UpendraFansGroup
+**Hello {}, My Name Is {} , Group Manager Of @annamalai07
 
 """
 
@@ -47,7 +47,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/ca01164e8dda6295ddbb2.jpg"
+TECHNO_IMG = "https://telegra.ph/file/0b0f3207ecc7c32229f72.png"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -140,11 +140,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Owner🧑‍💻",
-                                                                       url="t.me/Danger_Kannada_Admin")],
+                                                                       url="t.me/ManjuVirat018")],
                                                                                    [InlineKeyboardButton(text="ADD Me",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="My Group",
-                                                                       url="t.me/Upendrafansgroup")
+                                                                       url="t.me/annamalai07")
                                                                                  ]]))
 
     else:
