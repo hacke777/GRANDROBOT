@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name Is {} , Group Manager Of @annamalai07
+**Hello {}, My Name Is {} , I am an Simple Group Manager Bot , Find More Commands With /help
 
 """
 
@@ -34,7 +34,7 @@ HELP_STRINGS = """
 
 Hello! my name *{}*.
 
-*Main* commands available:
+*Main* commands : [Uppi Boss](https://telegra.ph/file/0fa26d770afba43fb4ae8.png)
  - /start: start the bot
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
@@ -47,7 +47,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/0b0f3207ecc7c32229f72.png"
+TECHNO_IMG = "https://telegra.ph/file/27a32665b3ceb3d8bbb6f.png"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -139,16 +139,16 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻My Owner🧑‍💻",
-                                                                       url="t.me/ManjuVirat018")],
+                                                                                   InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
+                                                                       url="t.me/The_Noob_Hacker")],
                                                                                    [InlineKeyboardButton(text="ADD Me",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="My Group",
-                                                                       url="t.me/annamalai07")
+                                                                       url="t.me/UpendraFansGroup")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yes, I am Already ONline")
+        update.effective_message.reply_text("I'm Already Online 🤨")
 
 
 def send_start(bot, update):
