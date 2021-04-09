@@ -5,4 +5,4 @@ DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https
 Creator - [The Noob](https://t.me/The_Noob_Hacker)
 
 # TELEGRAM
-Check me on [TELEGRAM](https://t.me/Upendra_Manager_Bot)
+Find me on TELEGRAM As [Uppi Fan](https://t.me/Upendra_Manager_Bot)
