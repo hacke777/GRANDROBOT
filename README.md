@@ -1,6 +1,6 @@
 # GRAND OFFICIAL
 
-DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendx22%2FGRANDROBOT&template=https%3A%2F%2Fgithub.com%2FDangerHackerRJ%2FGRANDROBOT)
+DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https://github.com/hacke777/GRANDROBOT)
 [.](https://heroku.com/deploy)
 Creator - [The Noob](https://t.me/The_Noob_Hacker)
 
