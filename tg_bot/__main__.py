@@ -140,11 +140,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/The_Noob_Hacker")],
+                                                                       url="t.me/Usernameledu")],
                                                                                    [InlineKeyboardButton(text="ADD Me",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="My Group",
-                                                                       url="t.me/UpendraFansGroup")
+                                                                       url="t.me/brtoficcal")
                                                                                  ]]))
 
     else:
